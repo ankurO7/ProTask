@@ -43,18 +43,18 @@ const tasksReducer = (state, action) => {
 // ================================================================================= //
 
 const api = {
-  getTasks: () => fetch(`${API_BASE}/tasks`).then(res => res.json()),
-  addTask: (task) => fetch(`${API_BASE}/tasks`, {
+  getTasks: () => fetch(`${API_BASE}/api/tasks`).then(res => res.json()),
+  addTask: (task) => fetch(`${API_BASE}/api/tasks`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(task),
   }).then(res => res.json()),
-  updateTask: (id, updates) => fetch(`${API_BASE}/tasks/${id}`, {
+  updateTask: (id, updates) => fetch(`${API_BASE}/api/tasks/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(updates),
   }).then(res => res.json()),
-  deleteTask: (id) => fetch(`${API_BASE}/tasks/${id}`, { method: 'DELETE' }),
+  deleteTask: (id) => fetch(`${API_BASE}/api/tasks/${id}`, { method: 'DELETE' }),
 };
 
 // ================================================================================= //
