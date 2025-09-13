@@ -1,9 +1,9 @@
-ProTask: A Modern MERN Stack Kanban Board
-ProTask is a clean, intuitive, and full-stack Kanban-style project management application. It provides a seamless drag-and-drop interface to manage tasks through different stages of a workflow. This project is built with the MERN stack and serves as a comprehensive example of a modern web application, perfect for showcasing full-stack development skills.
+#ProTask: A Modern MERN Stack Kanban Board
+  ProTask is a clean, intuitive, and full-stack Kanban-style project management application. It provides a seamless drag-and-drop interface to manage tasks through different stages of a workflow. This project is built with the MERN stack and     serves as a comprehensive example of a modern web application, perfect for showcasing full-stack development skills.
 
-Live Demo: https://protaskboard.vercel.app
+#Live Demo: https://protaskboard.vercel.app
 
-✨ Features
+#✨ Features
 Full CRUD Functionality: Create, read, update, and delete tasks effortlessly.
 
 Intuitive Drag & Drop: Move tasks between columns (To Do, In Progress, Done) to update their status.
@@ -16,7 +16,7 @@ Robust RESTful API: A well-structured backend API built with Node.js, Express, a
 
 Optimistic UI Updates: The UI updates instantly for a fast user experience, with backend synchronization.
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 This project leverages a modern and widely-used set of technologies:
 
 Category
@@ -39,7 +39,7 @@ Deployment
 
 Vercel (Frontend), Render (Backend), MongoDB Atlas (Database)
 
-🚀 Getting Started: Local Development
+#🚀 Getting Started: Local Development
 To get a local copy up and running, please follow these simple steps.
 
 Prerequisites
@@ -84,7 +84,7 @@ npm start
 
 Your browser should automatically open to http://localhost:3000.
 
-🤝 How to Contribute
+#🤝 How to Contribute
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
