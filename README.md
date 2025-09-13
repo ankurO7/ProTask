@@ -58,29 +58,29 @@ cd your-repo-name
 
 Setup the Backend Server
 
-# Navigate to the backend directory
+Navigate to the backend directory
 cd backend
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Create a .env file in the 'backend' folder
+Create a .env file in the 'backend' folder
 # and add the following lines:
 MONGO_URI=mongodb://localhost:27017/protask
 PORT=5001
 
-# Start the backend server (in this terminal)
+Start the backend server (in this terminal)
 npm start
 
 Setup the Frontend Application
 
-# Open a new terminal and navigate to the frontend directory
+Open a new terminal and navigate to the frontend directory
 cd frontend
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Start the React development server (in the new terminal)
+Start the React development server (in the new terminal)
 npm start
 
 Your browser should automatically open to http://localhost:3000.
