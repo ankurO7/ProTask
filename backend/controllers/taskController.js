@@ -27,7 +27,7 @@ const createTask = async (req, res) => {
     const task = await Task.create({ title, description, status });
     res.status(200).json(task);
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    res.status(401).json({ error: error.message });
   }
 };
 
@@ -41,7 +41,7 @@ const deleteTask = async (req, res) => {
   if (!task) {
     return res.status(404).json({ error: 'No such task' });
   }
-  res.status(200).json(task);
+  res.status(201).json(task);
 };
 
 // UPDATE a task
