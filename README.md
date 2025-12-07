@@ -1,4 +1,4 @@
-# ProTask: _A Modern MERN Stack Kanban Board_
+# ProTask: _A Kanban Board for Listing your Daily Tasks_
 ProTask is a clean, intuitive, and full-stack Kanban-style project management application. It provides a seamless drag-and-drop interface to manage tasks through different stages of a workflow.
 
 ### Live Demo: https://protaskboard.vercel.app
