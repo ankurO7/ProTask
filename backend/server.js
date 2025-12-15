@@ -1,8 +1,10 @@
+// required libraries
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
+const cors = require('cors'); // cross-origin resource sharing
 require('dotenv').config();
 const taskRoutes = require('./routes/tasks');
+
 
 const app = express();
 
